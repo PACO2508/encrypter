@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #f2f2f2;
+    background-color: red /*#f2f2f2*/;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
