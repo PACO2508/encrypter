@@ -197,6 +197,13 @@ footer{
     justify-content: space-around;
     align-items: center ;
 }
+#caja-logo{
+    display:flex;
+    align-items: center ;
+}
+
+#img-logo{margin-right: 1.2em;}
+
 .redes{
     width: 40px;
 }
@@ -230,11 +237,14 @@ a:hover{
     header{justify-content: center;}
     #main{display: block;}
     .caja1, .caja2{width: 100%; height: auto;}
+    textarea{}
     .msg-resultado{display:block;text-align: center;}
     #img-resultado{display: none;}
     .msg-resultado-1,.msg-resultado-2 {margin-top: 0;font-size: 1.1em;}
     footer{height: auto;}
     .footer{display: block;text-align: center;}
+    #img-logo{margin-right: 0;}
+    #caja-logo{display: block;}
     .img-redes{margin-top: 1em;}
 }
 @media screen and (max-width: 480px) {
