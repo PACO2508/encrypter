@@ -119,12 +119,13 @@ encriptar o desencriptar --------------------------------------*/
 }
 
 .btn{/* reglas generales para todos los botones */ 
-    padding: 15px;
+    padding:  1.5em;
     width: 35%;
     border-radius: 20px;
     font-size: 0.9em;
     border: none;
     margin: 0 10px 0 10px;
+  
 }
 
 .btn:hover{/* efectos especiales para todos los botones */ 
