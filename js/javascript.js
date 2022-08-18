@@ -96,3 +96,18 @@ function copiarText() {
   
 }
 btn_copiar.onclick = copiarText;
+
+// ---- animation-----------
+var count = 0;
+function txt_show(){
+    var show_box = document.querySelector("#header-titulo");
+    var txt_animation = "ENCRYPTER".charAt(count);
+    show_box.innerHTML += txt_animation;
+    count++;
+    console.log(count + "  " + txt_animation)
+}
+// repetir con el intervalo de 2 segundos
+let timerId = setInterval(txt_show, 500);
+
+// después de 5 segundos parar
+setTimeout(() => { clearInterval(timerId);}, 5000);

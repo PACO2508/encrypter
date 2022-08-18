@@ -37,6 +37,8 @@ header{
     font-size: 2em;
     font-family: 'Orbitron', sans-serif;
     color: #F29727;
+    border-right: #D97C2B 2px solid;
+    padding-right: 0.2em;
 }
 hr{
     border-top: #F29727 2px solid;
@@ -119,7 +121,7 @@ encriptar o desencriptar --------------------------------------*/
 }
 
 .btn{/* reglas generales para todos los botones */ 
-    padding:  1.5em;
+    padding:  1.3em;
     width: 35%;
     border-radius: 20px;
     font-size: 0.9em;
@@ -237,7 +239,6 @@ a:hover{
     header{justify-content: center;}
     #main{display: block;}
     .caja1, .caja2{width: 100%; height: auto;}
-    textarea{}
     .msg-resultado{display:block;text-align: center;}
     #img-resultado{display: none;}
     .msg-resultado-1,.msg-resultado-2 {margin-top: 0;font-size: 1.1em;}
